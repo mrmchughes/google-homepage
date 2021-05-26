@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.topnav {
+  background-color: white;
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.topnav a {
+  color: #2d2d2d;
+  text-align: center;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 24px;
+  font-size: 12px;
+}
+
+.topnav a:hover {
+  text-decoration: underline;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.material-icons {
+  vertical-align: middle;
+}
+
+.topnav-right button {
+  background-color: #4285f4;
+  color: white;
+  padding: 0 12px;
+  line-height: 28px;
+  border-radius: 4px;
+  border-color: #4285f4;
+  font-weight: bold;
+  margin-right: 25px;
+  margin-left: 15px;
+}
+
+.bottomnav {
+  background-color: #f1f1f1;
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.bottomnav a {
+  color: #2d2d2d;
+  text-align: center;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 24px;
+  font-size: 12px;
+  margin-left: 30px;
+}
+
+.bottomnav a:hover {
+  text-decoration: underline;
+}
+
+.bottomnav-right {
+  float: right;
+  margin-right: 30px;
+}
+
+.box {
+  margin-top: 200px;
+  margin-bottom: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 600px;
+  height: 500px;
+  text-align: center;
+}
+
+.box .container-1 input {
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid #d2d2d2;
+  height: 35px;
+  background-image: url(/home/mrmchughes/Downloads/search_black_24dp.svg);
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 15px 15px 25px 40px;
+  outline: none;
+  margin-top: 25px;
+}
+
+.box .container-2 button {
+  margin-top: 25px;
+  padding: 5px;
+}
