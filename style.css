@@ -104,8 +104,9 @@ body {
   border-radius: 20px;
   border: 1px solid #d2d2d2;
   height: 35px;
-  background-image: url(https://fonts.google.com/icons?selected=Material%20Icons%20Outlined%3Asearch);
+  background-image: url(https://image.shutterstock.com/image-vector/magnifying-glass-gradient-mesh-isolated-600w-404178025.jpg);
   background-position: 10px 10px;
+  background-size: 25px;
   background-repeat: no-repeat;
   padding: 15px 15px 25px 40px;
   outline: none;
